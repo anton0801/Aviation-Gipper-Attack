@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE499B182C85D0E400BDB3C5 /* Plane_Giper_AttackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499B172C85D0E400BDB3C5 /* Plane_Giper_AttackApp.swift */; };
+		EE499B1A2C85D0E400BDB3C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499B192C85D0E400BDB3C5 /* ContentView.swift */; };
+		EE499B1C2C85D0E600BDB3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE499B1B2C85D0E600BDB3C5 /* Assets.xcassets */; };
+		EE499B1F2C85D0E600BDB3C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE499B1E2C85D0E600BDB3C5 /* Preview Assets.xcassets */; };
+		EE499B292C85D13700BDB3C5 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499B282C85D13600BDB3C5 /* TutorialView.swift */; };
+		EE499B2C2C85D20500BDB3C5 /* PlaneGiperAttackDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499B2B2C85D20500BDB3C5 /* PlaneGiperAttackDelegate.swift */; };
+		EE499B2E2C85D3F100BDB3C5 /* Philosopher-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE499B2D2C85D3F000BDB3C5 /* Philosopher-Bold.ttf */; };
+		EE499B302C85D40600BDB3C5 /* Philosopher-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE499B2F2C85D40600BDB3C5 /* Philosopher-Regular.ttf */; };
+		EE499B332C86184B00BDB3C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499B322C86184B00BDB3C5 /* User.swift */; };
+		EE499B362C862E0800BDB3C5 /* UpgradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499B352C862E0800BDB3C5 /* UpgradeView.swift */; };
+		EED2E8002C86482E00B97144 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2E7FF2C86482E00B97144 /* GameView.swift */; };
+		EED2E8022C86484600B97144 /* AttackGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2E8012C86484600B97144 /* AttackGameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE499B142C85D0E400BDB3C5 /* Plane Giper Attack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plane Giper Attack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE499B172C85D0E400BDB3C5 /* Plane_Giper_AttackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane_Giper_AttackApp.swift; sourceTree = "<group>"; };
+		EE499B192C85D0E400BDB3C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE499B1B2C85D0E600BDB3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE499B1E2C85D0E600BDB3C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE499B282C85D13600BDB3C5 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		EE499B2B2C85D20500BDB3C5 /* PlaneGiperAttackDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneGiperAttackDelegate.swift; sourceTree = "<group>"; };
+		EE499B2D2C85D3F000BDB3C5 /* Philosopher-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Philosopher-Bold.ttf"; sourceTree = "<group>"; };
+		EE499B2F2C85D40600BDB3C5 /* Philosopher-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Philosopher-Regular.ttf"; sourceTree = "<group>"; };
+		EE499B312C85D40F00BDB3C5 /* Plane-Giper-Attack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Plane-Giper-Attack-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE499B322C86184B00BDB3C5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE499B352C862E0800BDB3C5 /* UpgradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeView.swift; sourceTree = "<group>"; };
+		EED2E7FF2C86482E00B97144 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EED2E8012C86484600B97144 /* AttackGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackGameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE499B112C85D0E400BDB3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE499B0B2C85D0E400BDB3C5 = {
+			isa = PBXGroup;
+			children = (
+				EE499B162C85D0E400BDB3C5 /* Plane Giper Attack */,
+				EE499B152C85D0E400BDB3C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE499B152C85D0E400BDB3C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE499B142C85D0E400BDB3C5 /* Plane Giper Attack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE499B162C85D0E400BDB3C5 /* Plane Giper Attack */ = {
+			isa = PBXGroup;
+			children = (
+				EE499B312C85D40F00BDB3C5 /* Plane-Giper-Attack-Info.plist */,
+				EE499B2D2C85D3F000BDB3C5 /* Philosopher-Bold.ttf */,
+				EE499B2F2C85D40600BDB3C5 /* Philosopher-Regular.ttf */,
+				EE499B2A2C85D1F800BDB3C5 /* Delegate */,
+				EE499B252C85D10700BDB3C5 /* Views */,
+				EE499B172C85D0E400BDB3C5 /* Plane_Giper_AttackApp.swift */,
+				EE499B1B2C85D0E600BDB3C5 /* Assets.xcassets */,
+				EE499B1D2C85D0E600BDB3C5 /* Preview Content */,
+				EE499B322C86184B00BDB3C5 /* User.swift */,
+			);
+			path = "Plane Giper Attack";
+			sourceTree = "<group>";
+		};
+		EE499B1D2C85D0E600BDB3C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE499B1E2C85D0E600BDB3C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE499B252C85D10700BDB3C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EED2E7FE2C86482000B97144 /* Game */,
+				EE499B342C862DFD00BDB3C5 /* Upgrade */,
+				EE499B272C85D12200BDB3C5 /* Angar */,
+				EE499B262C85D11B00BDB3C5 /* Tutorial */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE499B262C85D11B00BDB3C5 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				EE499B282C85D13600BDB3C5 /* TutorialView.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		EE499B272C85D12200BDB3C5 /* Angar */ = {
+			isa = PBXGroup;
+			children = (
+				EE499B192C85D0E400BDB3C5 /* ContentView.swift */,
+			);
+			path = Angar;
+			sourceTree = "<group>";
+		};
+		EE499B2A2C85D1F800BDB3C5 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EE499B2B2C85D20500BDB3C5 /* PlaneGiperAttackDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		EE499B342C862DFD00BDB3C5 /* Upgrade */ = {
+			isa = PBXGroup;
+			children = (
+				EE499B352C862E0800BDB3C5 /* UpgradeView.swift */,
+			);
+			path = Upgrade;
+			sourceTree = "<group>";
+		};
+		EED2E7FE2C86482000B97144 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EED2E7FF2C86482E00B97144 /* GameView.swift */,
+				EED2E8012C86484600B97144 /* AttackGameScene.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE499B132C85D0E400BDB3C5 /* Plane Giper Attack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE499B222C85D0E600BDB3C5 /* Build configuration list for PBXNativeTarget "Plane Giper Attack" */;
+			buildPhases = (
+				EE499B102C85D0E400BDB3C5 /* Sources */,
+				EE499B112C85D0E400BDB3C5 /* Frameworks */,
+				EE499B122C85D0E400BDB3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plane Giper Attack";
+			productName = "Plane Giper Attack";
+			productReference = EE499B142C85D0E400BDB3C5 /* Plane Giper Attack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE499B0C2C85D0E400BDB3C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EE499B132C85D0E400BDB3C5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EE499B0F2C85D0E400BDB3C5 /* Build configuration list for PBXProject "Plane Giper Attack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE499B0B2C85D0E400BDB3C5;
+			productRefGroup = EE499B152C85D0E400BDB3C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE499B132C85D0E400BDB3C5 /* Plane Giper Attack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE499B122C85D0E400BDB3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE499B1F2C85D0E600BDB3C5 /* Preview Assets.xcassets in Resources */,
+				EE499B2E2C85D3F100BDB3C5 /* Philosopher-Bold.ttf in Resources */,
+				EE499B1C2C85D0E600BDB3C5 /* Assets.xcassets in Resources */,
+				EE499B302C85D40600BDB3C5 /* Philosopher-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE499B102C85D0E400BDB3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED2E8022C86484600B97144 /* AttackGameScene.swift in Sources */,
+				EE499B1A2C85D0E400BDB3C5 /* ContentView.swift in Sources */,
+				EE499B362C862E0800BDB3C5 /* UpgradeView.swift in Sources */,
+				EED2E8002C86482E00B97144 /* GameView.swift in Sources */,
+				EE499B182C85D0E400BDB3C5 /* Plane_Giper_AttackApp.swift in Sources */,
+				EE499B292C85D13700BDB3C5 /* TutorialView.swift in Sources */,
+				EE499B332C86184B00BDB3C5 /* User.swift in Sources */,
+				EE499B2C2C85D20500BDB3C5 /* PlaneGiperAttackDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE499B202C85D0E600BDB3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE499B212C85D0E600BDB3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE499B232C85D0E600BDB3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plane Giper Attack/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plane-Giper-Attack-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Plane-Giper-Attack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE499B242C85D0E600BDB3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plane Giper Attack/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plane-Giper-Attack-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Plane-Giper-Attack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE499B0F2C85D0E400BDB3C5 /* Build configuration list for PBXProject "Plane Giper Attack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE499B202C85D0E600BDB3C5 /* Debug */,
+				EE499B212C85D0E600BDB3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE499B222C85D0E600BDB3C5 /* Build configuration list for PBXNativeTarget "Plane Giper Attack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE499B232C85D0E600BDB3C5 /* Debug */,
+				EE499B242C85D0E600BDB3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE499B0C2C85D0E400BDB3C5 /* Project object */;
+}
